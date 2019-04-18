@@ -3,5 +3,5 @@
 
 # Acknowledgement 
 I would like to thank Dr. Mark L. Psiaki of Virginia Tech for providing the lecture notes of AOE 6984: Model Based Estimation class 
-that helped building this repository.
+that helped building this repository.\n
 I would also like to thank Matt Marti for the guidance along the way. 
