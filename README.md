@@ -1,6 +1,8 @@
 # 1DParticleFilter
 This repository contains source codes and a Jupyter Notebook tutorial for 1 dimensional particle filter for estimating or tracking. 
 
+**Best way is to download the Jupyter Notebook to see the tutorial**
+
 The tutorial estimates the system below:
 
 ![equation](https://latex.codecogs.com/svg.latex?%5Cinline%20%24%24x_%7Bk&plus;1%7D%20%3D%20f%20%5B%20k%20%2C%20x_k%20%2C%20v_k%20%5D%20%3D%202%20%5Coperatorname%20%7B%20atan%20%7D%20%5B%20x_k%20%5D%20&plus;%200.5%20*%20%5Ccos%20%28%20%5Cpi%20k%20/%203%20%29%20&plus;%20v_k%24%24%5C%5C%20%24%24z_k%20%3D%20h%20%5B%20k%20%2C%20x_k%20%5D%20&plus;%20w_k%20%3D%20x_k%20&plus;%20x_k%20%5E%20%7B%202%20%7D%20&plus;%20x_k%20%5E%20%7B%203%20%7D%20&plus;%20w_k%24%24%5C%5C%20%24%24E%20%5C%7B%20v_k%20%5C%7D%20%3D%200%20%2C%20E%20%5C%7B%20v_k%20v_j%20%5C%7D%20%3D%20%5Cdelta%20_%20%7B%20j%20k%20%7D%20Q_k%5C%20where%5C%20Q_k%20%3D%201%24%24%5C%5C%20%24%24E%20%5C%7B%20w_k%20%5C%7D%20%3D%200%20%2C%20E%20%5C%7B%20w_k%20w_j%20%5C%7D%20%3D%20%5Cdelta%20_%20%7B%20j%20k%20%7D%20R_k%5C%20where%5C%20R_k%3D%200.25%24%24%5C%5C%20%24%24%5Cquad%20%5Chat%20%7B%20x%20%7D_0%20%3D%204%20%2C%20P_0%20%3D%202%24%24)
