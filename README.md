@@ -4,7 +4,7 @@ This repository contains source codes and a Jupyter Notebook tutorial for 1 dime
 **Best way is to download the Jupyter Notebook to see the tutorial**
 
 The tutorial estimates the system below:
-
+```math
     "\n",
     "$$x_{k+1} = f [ k , x_k , v_k ] = 2 \\operatorname { atan } [ x_k ] + 0.5 * \\cos ( \\pi k / 3 ) + v_k$$\n",
     "\n",
@@ -16,6 +16,7 @@ The tutorial estimates the system below:
     "\n",
     "$$\\quad \\hat { x }_0 = 4 , P_0 = 2$$\n",
     "\n",
+    ```
     
 I got this example from a class taught by Dr. Psiaki. But one can solve other 1D systems they want and modifying in the source codes. The prerequisites to fully understand this document Bayesian Statistics and Kalman Filter.  
 
